@@ -7,7 +7,7 @@
   <b>Discipline | <b> Electrical Engineering 
 :--|:--|
 <b> Lab | <b> **Analog Signals, Network and Measurement Laboratory Virtual Lab**
-<b> Experiment|     <b> **Q meter Experiment**
+<b> Experiment|     <b> **Measurement of Capacitance by Schering Bridge**
 
 
 <b>Name of Developer | <b> **Prof. A.K Deb**
