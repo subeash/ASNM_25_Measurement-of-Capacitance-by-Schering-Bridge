@@ -1,19 +1,20 @@
 ## Procedure
 
+
 <p align="center">
 
-![Rm501 Figure](images/pic1.jpg)
+ ![Rm501 Figure](images/schering.jpg)
 
-***Fig 1: Circuit Diagram for Q meter experiment***
+***Fig. 1. Circuit digram of experimental set-up for Capacitance measurement by Schering Bridge.***
 </p>
-- Set the Shunt Resistance (Rsh) value as small as possible (Say 0.02 Ohm). Set all the parameters (R, L, C) by yourself.
+1)  Apply Supply voltage from the signal generator with arbitrary frequency. ( V =3v). Also set the unknown Capacitance value from 'Set Capacitor Value' tab.
  </br>
-- Set the voltage value of the oscillator (E=10 V).
+2)  Then switch on the supply to get millivoltmeter deflection.
  </br>
-- At f=100 Hz. Check the value of voltage drop across capacitor. (EC).
+3)  Choose the values of   C<sub>2</sub>, C<sub>4</sub>, R<sub>3</sub> and R<sub>4</sub> from the capacitance and resistance box. Varry the values to some particular values to achieve "NULL".
  </br>
-- Change the frequency until EC reach at the maximum value. Then calculate the value Q measured using this formula `Q_(meas)=(omega_0L)/(R+R_(sh))`.
+4) Observe the millivoltmeter pointer to achieve "NULL".
  </br>
-- Calculate the true value of unknown coil by using this formula `Q_(true)=(omega_0L)/R`
+5) If "NULL" is achieved, switch to 'Measure Capacitor Value' tab and click on 'Simulate'. Observe the calculated values of unknown capacitance (C<sub>1</sub>) and it's internal resistance (r<sub>1</sub>).
  </br>
-- First resonance occurs due to frequency (say f1). Note down the value of tuning capacitor C. (say C1). Double the input frequency (f1) (say f2=2*f1). Change the tuning capacitor value until resonance occurs. Note down the value of tuning capacitor C. (say C2). Discharge capacitance (Cd) would be =(C1-4*C2)/3.
+6) Also observe the Dissipation factor of the unknwown capacitor which is defined as `omega*C*r`.   Where, `omega=2pif`.
